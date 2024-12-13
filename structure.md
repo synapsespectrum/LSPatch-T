@@ -28,28 +28,29 @@
 │
 ├── dataset
 │   ├── ETT
-│   ├── electricity
-│   ├── __init__.py
-│   └── data_loader.py
+│   │   ├── ETTh1.csv
+│   │   ├── ...
+│   ├── exchange_rate.csv
+│   └── weather.csv
 │
 ├── scripts # 2 types: script to experiments and deployments
 │   ├── experiments  
-│   └── deployments
+│   └── ablation
 │
 ├── notebooks
 │   ├── exploratory_data_analysis.ipynb
 │   ├── model_evaluation.ipynb
 │   └── ...
 │
-├── model_saved
-│   ├── checkpoints # model checkpoints:  *.pth, log.txt
+├── experiments
+│   ├── model_saved
+│   │   ├── checkpoints # model checkpoints:  *.pth, log.txt
+│   │   │       ├── model1
+│   │   │       ├── ...
+│   │   └── results # model evaluation results: metrics, pred.npy
 │   │       ├── model1
-│   │       ├── model2
-│   │       └── ...
-│   └── results # model evaluation results: metrics, figures, pred.npy, ...
-│           ├── model1
-│           ├── model2
-│           └── ...
+│   │       ├── ...
+│   └── test_results (plot the test results)
 │
 │
 │
