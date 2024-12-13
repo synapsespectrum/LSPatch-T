@@ -26,7 +26,7 @@
 │   ├── utils.py
 │   └── ...
 │
-├── data
+├── dataset
 │   ├── ETT
 │   ├── electricity
 │   ├── __init__.py
