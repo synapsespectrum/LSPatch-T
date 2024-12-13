@@ -13,13 +13,10 @@
 │
 ├── utils
 │   ├── __init__.py
-│   ├── data.py
-│   └── metrics.py
-│
-├── config
+│   ├── ...
 │
 │
-├── layers # inspired from Autoformer
+├── layers
 │   ├── __init__.py
 │   ├── AutoCorrelation.py
 │   ├── Transformer_EncDec.py
@@ -33,14 +30,9 @@
 │   ├── exchange_rate.csv
 │   └── weather.csv
 │
-├── scripts # 2 types: script to experiments and deployments
+├── scripts # 2 types: script to experiments and ablation
 │   ├── experiments  
 │   └── ablation
-│
-├── notebooks
-│   ├── exploratory_data_analysis.ipynb
-│   ├── model_evaluation.ipynb
-│   └── ...
 │
 ├── experiments
 │   ├── model_saved
@@ -54,26 +46,13 @@
 │
 │
 │
-├── main.py  # final script to run publicly -> scripts/deployments/
-│
 ├── experiment.py # script to run experiments -> scripts/experiments/
 │
 ├── README.md
 ├── requirements.txt
-├── environment.yml
-├── Dockerfile
 └── Makefile
 
 ```
-
-## Explanation of each part
-- `config/`: having a config folder with several configuration files can be useful to organize different sets of parameters, possibly
-for different environments (like development, testing, and production).
-- `model_saved`/: This is where you should store all your experimental outputs, including model parameters, output data, logs, and other related items. Each experiment has its own folder.
-- `notebooks`/: This is where you should put all your Jupyter notebooks. These can be used for exploratory data analysis, data visualization, model evaluation, etc.
-- `requirements.txt`, `environment.yml`: This file should list all the Python packages that your project depends on.
-- `Dockerfile`: This file contains all the commands a user could call on the command line to assemble an image.
-- `Makefile`: This file contains a set of directives used by a make build automation tool to generate a target/goal.
 
 
 
