@@ -75,6 +75,8 @@ bash ./scripts/ablation/transferlearning/etth2-etth1.sh
 bash ./scripts/experiments/Weather/iTransformer.sh
 ```
 
+#### Specific Configurations, please refer to [Arguments](arguments.md)
+
 ## 📊 MLFlow Integration
 
 🔍 **Track Everything**: Comprehensive experiment tracking and monitoring with MLFlow.
