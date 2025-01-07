@@ -1,4 +1,4 @@
-# LSPatch-T: Long-Short Patch Transferring for Multivariate Time Series Forecasting 🚀
+# LSPatch-T: Partial Transfer Learning from Patch Transformer to Variate-Based Linear Forecasting Model 🚀
 
 <div align="center">
 
@@ -16,7 +16,7 @@
 🏆 LSPatch-T achieves state-of-the-art performance across multiple datasets while maintaining efficiency and interpretability in multivariate time series forecasting tasks.
 
 📜 This repo is the official implementation for the paper: 
-[Long-Short Patch Transferring for Multivariate Time Series Forecasting]()
+[Partial Transfer Learning from Patch Transformer to Variate-Based Linear Forecasting Model](https://www.mdpi.com/1996-1073/17/24/6452)
 
 ## ✨ Key Features
 
@@ -127,14 +127,14 @@ Performance Improvements:
 - Weather → ETTh1: +0.23% MSE, +0.42% MAE
 - Exchange → ETTh1: +0.50% MSE, +0.75% MAE
 
-📖 For more details, please refer to the [paper]().
+📖 For more details, please refer to the [paper](https://www.mdpi.com/1996-1073/17/24/6452).
 
 ## 📚 Citation
 ```bibtex
 @article{LSPatchT2024,
-  title={Transferring from short to long sub-series for multivairate time series forecasting},
+  title={Partial Transfer Learning from Patch Transformer to Variate-Based Linear Forecasting Model},
   author={[Le Hoang Anh]},
-  journal={Energies},
+  journal={Energies (19961073). Vol. 17 Issue 24, p6452. 17p},
   year={2024}
 }
 ```
