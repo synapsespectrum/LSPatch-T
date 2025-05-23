@@ -12,18 +12,18 @@ fundamental **core layers** and applies specific **loss functions** and helpful 
 
 ## Chapters
 1. [Model Architectures
-](01_model_architectures_.md)
+](01_model_architectures_.html)
 2. [Experiment Runner
-](02_experiment_runner_.md)
+](02_experiment_runner_.html)
 3. [Data Providers
-](03_data_providers_.md)
+](03_data_providers_.html)
 4. [Training and Evaluation Logic
-](04_training_and_evaluation_logic_.md)
+](04_training_and_evaluation_logic_.html)
 5. [Loss Functions
-](05_loss_functions_.md)
+](05_loss_functions_.html)
 6. [Core Layers
-](06_core_layers_.md)
+](06_core_layers_.html)
 7. [MLflow Tracking
-](07_mlflow_tracking_.md)
+](07_mlflow_tracking_.html)
 8. [Utility Functions
-](08_utility_functions_.md)
+](08_utility_functions_.html)
