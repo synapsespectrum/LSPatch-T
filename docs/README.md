@@ -8,37 +8,7 @@ fundamental **core layers** and applies specific **loss functions** and helpful 
 
 
 ## Visual Overview
-
-```mermaid
-flowchart TD
-    A0["Experiment Runner
-"]
-    A1["Data Providers
-"]
-    A2["Model Architectures
-"]
-    A3["Core Layers
-"]
-    A4["Training and Evaluation Logic
-"]
-    A5["MLflow Tracking
-"]
-    A6["Loss Functions
-"]
-    A7["Utility Functions
-"]
-    A0 -- "Requests Data" --> A1
-    A0 -- "Loads/Builds Model" --> A2
-    A0 -- "Executes Logic" --> A4
-    A0 -- "Integrates Tracking" --> A5
-    A0 -- "Selects Loss" --> A6
-    A0 -- "Leverages Utilities" --> A7
-    A1 -- "Uses Utilities" --> A7
-    A2 -- "Composed of Layers" --> A3
-    A3 -- "Uses Utilities" --> A7
-    A4 -- "Uses Loss Function" --> A6
-    A4 -- "Uses Utilities" --> A7
-```
+![image](https://github.com/user-attachments/assets/072eca0e-efce-4691-a42d-af189ca18677)
 
 ## Chapters
 
