@@ -15,7 +15,7 @@ fundamental **core layers** and applies specific **loss functions** and helpful 
 2. [Experiment Runner](#chapter-2-experiment-runner)
 3. [Data Providers](#chapter-3-data-providers)
 4. [Training and Evaluation Logic](#chapter-4-training-and-evaluation-logic)
-5. [Loss Functions](#chapter-5-loss-functions)
+5. [Loss Functions](#chapter-5-loss-functions.html)
 6. [Core Layers](#chapter-6-core-layers)
 7. [MLflow Tracking](#chapter-7-mlflow-tracking)
 8. [Utility Functions](#chapter-8-utility-functions)
