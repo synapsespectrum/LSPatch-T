@@ -43,7 +43,7 @@ flowchart TD
 ## Chapters
 
 1. [Model Architectures
-](01_model_architectures_.md)
+](docs/01_model_architectures_.md)
 2. [Experiment Runner
 ](02_experiment_runner_.md)
 3. [Data Providers
