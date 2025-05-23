@@ -18,14 +18,15 @@ fundamental **core layers** and applies specific **loss functions** and helpful 
 ](02_experiment_runner_.md)
 3. [Data Providers
 ](03_data_providers_.md)
-4. [Training and Evaluation Logic
+{% include 03_data_providers_.md %}
+5. [Training and Evaluation Logic
 ](04_training_and_evaluation_logic_.md)
-5. [Loss Functions
+6. [Loss Functions
 ](05_loss_functions_.md)
-6. [Core Layers
+7. [Core Layers
 ](06_core_layers_.md)
-7. [MLflow Tracking
+8. [MLflow Tracking
 ](07_mlflow_tracking_.md)
-8. [Utility Functions
+9. [Utility Functions
 ](08_utility_functions_.md)
 
