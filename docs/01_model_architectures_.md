@@ -366,4 +366,4 @@ Specifically, we saw how `LSPatchT.py` contains blueprints for both pretraining 
 
 Now that we understand what model architectures are and how they are defined, let's move on to see how these blueprints are actually used to run experiments.
 
-[Chapter 2: Experiment Runner](docs/02_experiment_runner_.md)
+[Chapter 2: Experiment Runner](docs/02_experiment_runner_.html)
